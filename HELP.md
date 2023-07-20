@@ -43,7 +43,7 @@ This project contains a Docker Compose file named `compose.yaml`.
 In this file, the following services have been defined:
 
 * postgres: [`postgres:latest`](https://hub.docker.com/_/postgres)
-* rabbitmq: [`rabbitmq:latest`](https://hub.docker.com/_/rabbitmq)
+* rabbitmq: [`rabbitmq:3-management`](https://hub.docker.com/_/rabbitmq)
 
 Please review the tags of the used images and set them to the same as you're running in production.
 
